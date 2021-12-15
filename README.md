@@ -16,14 +16,16 @@ authenticated user to view and change contents of a taxi service database.
 - display list of *cars* that current authenticated driver is assigned to.
 
 -----------------------------------  
-###Implementation features:
+
+### Implementation features:
 
 - 3-tier architecture (DAO, services, controllers).
 - cars, drivers and car manufacturers are represented by corresponding models
 - taxi_service [schema](Https://i.imgur.com/gw1qj0C.png)
 
 ________________
-###Technologies used:
+
+### Technologies used:
 
 - JDBC
 - JSTL
@@ -35,7 +37,8 @@ ________________
 - Servlet API
 
 --------------
-###How to run the app:
+
+### How to run the app:
 
 1. Configure Apache Tomcat for your IDE
 2. Configure MySQL
