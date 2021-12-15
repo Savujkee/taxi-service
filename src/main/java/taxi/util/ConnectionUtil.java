@@ -9,7 +9,7 @@ public class ConnectionUtil {
     private static final String URL = "DB URL";
     private static final String USERNAME = "USERNAME";
     private static final String PASSWORD = "PASSWORD";
-    private static final String JDBC_DRIVER = "DRIVER";
+    private static final String JDBC_DRIVER = "com.mysql.cj.jdbc.Driver";
 
     static {
         try {
