@@ -13,15 +13,20 @@ authenticated user to view and change contents of a taxi service database.
 - add new *car*;
 - display *cars* and delete them;
 - assign *driver* to *car*;
-- display list of *cars* that current authenticated driver is assigned to.
+- display list of *cars* that current authenticated *driver* is assigned to.
 
 -----------------------------------  
 
-### Implementation features:
+### Implementation details:
 
-- 3-tier architecture (DAO, services, controllers).
-- cars, drivers and car manufacturers are represented by corresponding models
-- taxi_service [schema](Https://i.imgur.com/gw1qj0C.png)
+- 3-tier architecture:
+  - DAO
+  - services 
+  - controllers
+
+#### DB schema 
+
+![schema](Https://i.imgur.com/gw1qj0C.png)
 
 ________________
 
