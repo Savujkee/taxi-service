@@ -3,7 +3,7 @@
 This basic web application simulates structure of a taxi service. It allows an
 authenticated user to view and change contents of a taxi service database.
 
-###Capabilities:
+### Capabilities:
 
 - authenticate existing *drivers*;
 - add/register *driver*;
